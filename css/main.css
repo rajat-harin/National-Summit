@@ -32,24 +32,13 @@ ul li a:hover {
 
 
 .circle {
-    background: #FFFFFF !important;
-	background: #43442B ;
+    background: #FFFFFF;
     width: 180px !important;
     height: 180px !important;
-    border-radius: 140px !important;
+    border-radius: 90px;
     border: 2px solid white;
 	padding: 20px !important;
-	margin-left: 110px !important;
-	
-}
-.circle div {
-
-    left: 19px;
-    top: 19px;
-    width: 90px;
-    height: 90px;
-    color: white;
-    text-align: center;
+	border-right:2px solid #FF6642; 
 }
 .collapsible-body{
 	background: #BFBFBF;
@@ -65,21 +54,21 @@ ul li a:hover {
   }
 }
 /* For Timeline */
+
 @media only screen and (min-width: 601px) {
 .timeline{
   position: relative;
   margin: 50px;
 	margin-top: 100px;
-  padding: 140px 0 0 0;
+  padding: 0;
   width: 80%;
 }
 .timeline:before {
   content: '';
   position: absolute;
-	top: 160px;
   left: 50%;
   width: 2px;
-  height: 81%;
+  height: 100%;
   background: #FFFFFF;
 }
 .timeline ul{
