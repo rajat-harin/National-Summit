@@ -1,6 +1,6 @@
 /* CSS Document */
-body {
-    background: #080808;
+body{
+	background: #080808;
 }
 .s1 {
     background: url("../images/s1-min.jpg") no-repeat;
@@ -24,125 +24,112 @@ ul li a:hover {
     max-height: 100px !important;
 }
 .material-icon medium {
-    color: #EF643F
+    color:#EF643F
 }
 .waves-effect waves-light btn {
     background: #1A1B22;
 }
+
+
 .circle {
     background: #FFFFFF;
     width: 180px !important;
     height: 180px !important;
     border-radius: 90px;
     border: 2px solid white;
-    padding: 20px !important;
-    border-right: 2px solid #FF6642;
+	padding: 20px !important;
+	border-right:2px solid #FF6642; 
 }
-.collapsible-body {
-    background: #BFBFBF;
+.collapsible-body{
+	background: #BFBFBF;
 }
 
+
 @media only screen and (min-width: 601px) {
-.row .col.m5th {
+  .row .col.m5th {
     width: 20% !important;
     margin-left: auto;
     left: auto;
     right: auto;
-}
+  }
 }
 /* For Timeline */
-.tab {
-    overflow: hidden;
-    background-color: #f1f1f1;
-}
-.tabcontent {
-    display: none;
-    justify-content: center;
-}
-#day1 {
-    display: flex;
-    justify-content: center;
-}
-#day2 {
-    display: flex;
-    justify-content: center;
-}
 
 @media only screen and (min-width: 601px) {
-.timeline {
-    position: relative;
-    margin: 50px;
-    margin-top: 100px;
-    padding: 0;
-    width: 80%;
+.timeline{
+  position: relative;
+  margin: 50px;
+	margin-top: 100px;
+  padding: 0;
+  width: 80%;
 }
 .timeline:before {
-    content: '';
-    position: absolute;
-    left: 50%;
-    width: 2px;
-    height: 100%;
-    background: #FFFFFF;
+  content: '';
+  position: absolute;
+  left: 50%;
+  width: 2px;
+  height: 100%;
+  background: #FFFFFF;
 }
-.timeline ul {
-    margin: 0;
-    padding: 0;
-    justify-content: center;
-    align-self: center;
+.timeline ul{
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-self: center;
 }
-.timeline ul li {
-    width: 50%;
-    list-style: none;
-    position: relative;
-    box-sizing: border-box;
-    padding: 20px 40px;
+.timeline ul li{
+  width: 50%; 
+  list-style: none;
+  position: relative;
+  box-sizing: border-box;
+  padding: 20px 40px;
 }
 .timeline ul li:nth-child(odd) {
-    float: left;
-    text-align: right;
-    clear: both;
+  float: left;
+  text-align: right;
+  clear: both;
 }
 .timeline ul li:nth-child(even) {
-    float: right;
-    text-align: left;
-    clear: both;
+  float: right;
+  text-align: left;
+  clear: both;
 }
-.content {
-    padding-bottom: 20px;
+.content{
+  padding-bottom: 20px;
 }
 .timeline ul li:nth-child(odd):before {
-    content: '';
-    position: absolute;
-    top: 24px;
-    right: -6px;
-    width: 10px;
-    height: 10px;
-    background: #494949;
-    border-radius: 50%;
-    box-shadow: 0 0 0 3px #BFBFBF;
+  content: '';
+  position: absolute;
+  top: 24px;
+  right: -6px;
+  width: 10px;
+  height: 10px;
+  background: #494949;
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px #BFBFBF;
 }
 .timeline ul li:nth-child(even):before {
-    content: '';
-    position: absolute;
-    top: 24px;
-    left: -4px;
-    width: 10px;
-    height: 10px;
-    background: #494949;
-    border-radius: 50%;
-    box-shadow: 0 0 0 3px #BFBFBF;
+  content: '';
+  position: absolute;
+  top: 24px;
+  left: -4px;
+  width: 10px;
+  height: 10px;
+  background: #494949;
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px #BFBFBF;
 }
-.timeline ul li h3 {
-    margin: 0;
-    padding: 0;
-    font-size: 22px;
-    font-weight: 600;
-    color: #FFFFFF;
+.timeline ul li h3{
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
+  font-weight: 600;
+  color: #FFFFFF;
 }
-.timeline ul li p {
-    margin: 10px 0 0;
-    padding: 15px;
-    background: #C5C5C5;
+.timeline ul li p{
+  margin: 10px 0 0;
+  padding: 15px;
+  background: #C5C5C5;
 }
 /*.timeline ul li p:before {
     position: absolute;
@@ -155,98 +142,98 @@ ul li a:hover {
     border-bottom: 14px solid transparent;
     content: " ";
 }*/
-.timeline ul li .time h4 {
-    margin: 0;
-    padding: 0;
-    font-size: 18px;
+.timeline ul li .time h4{
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
 }
-.timeline ul li:nth-child(odd) .time {
-    content: '';
-    position: absolute;
-    top: 12px;
-    right: -165px;
-    margin: 0;
-    padding: 8px 16px;
-    background: #494949;
-    color: #FFFFFF;
-    border-radius: 18px;
-    box-shadow: 0 0 0 3px #BFBFBF;
+.timeline ul li:nth-child(odd) .time{
+  content: '';
+  position: absolute;
+  top: 12px;
+  right: -165px;
+  margin: 0;
+  padding: 8px 16px;
+  background: #494949;
+  color: #FFFFFF;
+  border-radius: 18px; 
+  box-shadow: 0 0 0 3px #BFBFBF;
 }
-.timeline ul li:nth-child(even) .time {
-    content: '';
-    position: absolute;
-    top: 12px;
-    left: -165px;
-    margin: 0;
-    padding: 8px 16px;
-    background: #494949;
-    color: #FFFFFF;
-    border-radius: 18px;
-    box-shadow: 0 0 0 3px #BFBFBF;
+.timeline ul li:nth-child(even) .time{
+  content: '';
+  position: absolute;
+  top: 12px;
+  left: -165px;
+  margin: 0;
+  padding: 8px 16px;
+  background: #494949;
+  color: #FFFFFF;
+  border-radius: 18px; 
+  box-shadow: 0 0 0 3px #BFBFBF;
 }
-.changeColor {
-    background: #000000;
+.changeColor{
+  background: #000000;
 }
 }
-
 @media only screen and (max-width: 600px) {
-.timeline {
-    position: relative;
-    margin: 20px;
-    margin-top: 100px;
-    padding: 140px 0 0 0;
-    width: 80%;
+.timeline{
+  position: relative;
+  margin: 20px;
+	margin-top: 100px;
+  padding: 140px 0 0 0;
+  width: 80%;
 }
 .timeline:before {
-    content: '';
-    position: absolute;
-    top: 160px;
-    width: 2px;
-    height: 81%;
-    background: #FFFFFF;
+  content: '';
+  position: absolute;
+	top: 160px;
+  width: 2px;
+  height: 81%;
+  background: #FFFFFF;
 }
-.timeline ul {
-    margin: 0;
-    padding: 0;
-    justify-content: center;
-    align-self: center;
+.timeline ul{
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-self: center;
 }
-.timeline ul li {
-    list-style: none;
-    position: relative;
-    box-sizing: border-box;
-    padding: 20px 40px;
+.timeline ul li{
+  list-style: none;
+  position: relative;
+  box-sizing: border-box;
+  padding: 20px 40px;
 }
-.timeline ul li {
-    float: right;
-    text-align: left;
-    clear: both;
+.timeline ul li{
+  float: right;
+  text-align: left;
+  clear: both;
 }
-.content {
-    padding-bottom: 20px;
+.content{
+  padding-bottom: 20px;
 }
+
 .timeline ul li:before {
-    content: '';
-    position: absolute;
-    top: 24px;
-    left: -4px;
-    width: 10px;
-    height: 10px;
-    background: #494949;
-    border-radius: 50%;
-    box-shadow: 0 0 0 3px #BFBFBF;
+  content: '';
+  position: absolute;
+  top: 24px;
+  left: -4px;
+  width: 10px;
+  height: 10px;
+  background: #494949;
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px #BFBFBF;
 }
-.timeline ul li h3 {
-    margin: 40px 0 0;
-    padding: 0;
-    font-size: 22px;
-    font-weight: 600;
-    color: #FFFFFF;
+.timeline ul li h3{
+  margin: 40px 0 0;
+  padding: 0;
+  font-size: 22px;
+  font-weight: 600;
+  color: #FFFFFF;
 }
-.timeline ul li p {
-    margin: 10px 0 0;
-    padding: 10px;
-    background: #C5C5C5;
+.timeline ul li p{
+  margin: 10px 0 0;
+  padding: 10px;
+  background: #C5C5C5;
 }
 /*.timeline ul li p:before {
     position: absolute;
@@ -259,29 +246,30 @@ ul li a:hover {
     border-bottom: 14px solid transparent;
     content: " ";
 }*/
-.timeline ul li .time h4 {
-    margin: 0;
-    padding: 0;
-    font-size: 18px;
-}
-.timeline ul li .time {
-    content: '';
-    position: absolute;
-    top: 12px;
-    margin: 0;
-    padding: 8px 16px;
-    background: #494949;
-    color: #FFFFFF;
-    border-radius: 18px;
-    box-shadow: 0 0 0 3px #BFBFBF;
-}
-.changeColor {
-    background: #000000;
-}
+.timeline ul li .time h4{
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
 }
 
+.timeline ul li .time{
+  content: '';
+  position: absolute;
+  top: 12px;
+  margin: 0;
+  padding: 8px 16px;
+  background: #494949;
+  color: #FFFFFF;
+  border-radius: 18px; 
+  box-shadow: 0 0 0 3px #BFBFBF;
+}
+.changeColor{
+  background: #000000;
+}
+}
 @media only screen and (max-width: 640px) {
-.brand-logo {
-    align-content: center;
-}
-}
+	.brand-logo{
+		align-content: center;
+	}
+	
+ }
