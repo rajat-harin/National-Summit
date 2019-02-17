@@ -9,10 +9,9 @@
 <!--Import Google Icon Font-->
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
-    
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <title>National Smart City Summit</title>
 </head>
@@ -24,8 +23,7 @@
     <nav class="transparent">
       <div class="nav-wrapper">
         <div class="container"> <a href="#!" class="brand-logo"><img src="images/logotemp.png" alt="logo"></a></div>
-		  <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
@@ -33,35 +31,46 @@
         </ul>
       </div>
     </nav>
-	  <ul class="sidenav" id="mobile-demo">
-    <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-          </ul>
   </div>
-  <div style="text-align: center; align-self: center;"> <a href="https://www.yepdesk.com/national-summit-on-smart-solution-to-smart-cities" class="waves-effect waves-light btn-large " style="position: absolute; top: 70%; left: 40%; background-color: #272727;"><i class="material-icons right">arrow_forward</i>Register Now!</a> </div>
+  <ul class="sidenav" id="mobile-demo">
+    <!--<li><a class="sidenav-close" href="#!"><i class="material-icons right">close</i></a></li>-->
+    <li><a class="sidenav-close" href="#home">Home</a></li>
+    <li><a class="sidenav-close" href="#about">About</a></li>
+    <li><a class="sidenav-close" href="#contact">Contact</a></li>
+  </ul>
+  <div style="text-align: center; align-self: center;"> <a href="https://www.yepdesk.com/national-summit-on-smart-solution-to-smart-cities" class="waves-effect waves-light btn-large pulse" style="position: absolute; margin: auto; top: 70%; left: 40%; background-color: #272727;"><i class="material-icons right">send</i><span class="hide-on-small-only">Register Now!</span></a> </div>
 </section>
-<div class="row">
-  <div class="col s12 m3 center hoverable circle" style="padding:20px;margin-top: 30px;margin-bottom:30px;border-right:2px solid #FF6642; justify-content: space-around"> <i class="material-icons medium" style="color: black"> watch_later </i> <br>
-    <h5 class="lato">8-9 Mar. 2019</h5>
+<section>
+  <div class="row" style="margin-top: 20px;"> <a href="#timeline" style="text-decoration: none;color: black">
+    <div class="col s12 m6 l3 " style="display: flex; justify-content: center">
+      <div class="center hoverable circle"> <i class="material-icons medium" style="color: black"> watch_later </i> <br>
+        <h5 class="lato">8-9 Mar. 2019</h5>
+      </div>
+    </div>
+    </a> <a href="https://goo.gl/maps/DxGSm7GNV7P2" target="new" style="text-decoration: none;color: black">
+    <div class="col s12 m6 l3" style="display: flex; justify-content: center">
+      <div class="center hoverable circle"> <i class="material-icons medium"> location_on </i> <br>
+        <h5 class="lato">GHRCE, Nagpur</h5>
+        <br>
+      </div>
+    </div>
+    </a> <a href="#speakers" id="directspeakers" style="text-decoration: none;color: black">
+    <div class="col s12 m6 l3" style="display: flex; justify-content: center">
+      <div class ="center hoverable circle"> <i class="material-icons medium"> record_voice_over </i> <br>
+        <h5 class="lato">Speakers</h5>
+        <br>
+        <br>
+      </div>
+    </div>
+    </a>
+    <div class="col s12 m6 l3" style="display: flex; justify-content: center">
+      <div class="center hoverable circle"> <i class="material-icons medium"> code </i> <br>
+        <h5 class="lato">LOREM</h5>
+        <br>
+      </div>
+    </div>
   </div>
-  <a href="https://goo.gl/maps/DxGSm7GNV7P2" target="new" style="text-decoration: none;color: black">
-  <div class="col s12 m3 center hoverable circle" style="padding:20px;margin-top:30px;margin-bottom:30px;border-right:2px solid #FF6642"> <i class="material-icons medium"> location_on </i> <br>
-    <h5 class="lato">GHRCE, Nagpur</h5>
-    <br>
-  </div>
-  </a> <a href="#speakers" id="directspeakers" style="text-decoration: none;color: black">
-  <div class="col s12 m3 center hoverable circle" style="padding:20px;margin-top:30px;margin-bottom:30px;border-right:2px solid #FF6642"> <i class="material-icons medium"> record_voice_over </i> <br>
-    <h5 class="lato">Speakers</h5>
-    <br>
-    <br>
-  </div>
-  </a>
-  <div class="col s12 m3 center hoverable circle" style="padding:20px;margin-top:30px;margin-bottom:30px;border-right:2px solid #FF6642"> <i class="material-icons medium"> code </i> <br>
-    <h5 class="lato">LOREM</h5>
-    <br>
-  </div>
-</div>
+</section>
 <a name="about"></a>
 <section id="about">
   <div class="row">
@@ -99,10 +108,8 @@
             <div class="card-image center"> <img class="responsive-img" src="images/ieeelogo.jpg" alt="IEEE" width="200"> </div>
             <br>
             <div class="container card-content" style="padding: 0px">
-              <p class="dosis" style="text-align: justify">IEEE is the world’s largest technical- professional society which continuously promotes the development and application of electro technology and allied sciences for the benefit of humanity and for the advancement of the profession. With the 4,30,000 members spanning across 165 countries of the globe, IEEE fosters the development of standards, that often become national and international standards and produces over 30% of the world’s literature in its related fields, publishing well over 100 peer - reviewed journals. <br>
-                IEEE Nagpur subsection is 2nd subsection established under IEEE Bombay section in September, 2017. 
-                The subsection aims at forming better networking between professional members and student members within Nagpur district of Maharashtra state. 
-                It is also instrumental in boosting Engineering students, professionals and their respective careers. <!--Along with the former, it prepares them for the competent world out there and to accept the globally posed challenges confidently , via various events that we organize to update knowledge and enhance their skill sets.--> <br>
+              <p class="dosis" style="text-align: justify">IEEE is the world’s largest technical- professional society which continuously promotes the development and application of electro technology and allied sciences for the benefit of humanity and for the advancement of the profession.<br>
+                With the 4,30,000 members spanning across 165 countries of the globe, IEEE fosters the development of standards, that often become national and international standards and produces over 30% of the world’s literature in its related fields, publishing well over 100 peer - reviewed journals. <br>
               </p>
             </div>
           </div>
@@ -111,15 +118,13 @@
       <div class="col s12 m4" style="padding: 20px;">
         <div class="card blue-grey lighten-4 aos-init aos-animate" data-aos="zoom-in" style="height: 600px; border-radius: 20px; border: #606060">
           <div class="card-content black-text" style="padding: 0; padding-top: 20px;">
-            <div class="card-image center"> <img src="images/logo black.png" alt="HKN" width="200"> </div>
+            <div class="card-image center"> <img src="images/hkn.png" alt="HKN" width="200"> </div>
             <br>
             <div class="container card-content" style="padding: 0px">
-              <p class="dosis" style="text-align: justify">
               <p class="dosis" style="text-align: justify"> Eta Kappa Nu (ΗΚΝ) or IEEE-HKN is the international honour society of the Institute of Electrical and Electronics Engineers (IEEE). <br>
                 G.H Raisoni College of Engineering Nagpur (GHRCE) successfully installed IEEE HKN Mu-Pi Chapter on 25thApril 2018 by the hands of Dr. Ramakrishna Kappagantu, IEEE Region-10 Director (Asia Pacific). The HKN Chapter is running in its third year in India. Mu-Pi chapter at GHRCE facilitates students of Electrical, Electronics and Tele-communication department to gain insight and knowledge in the field of technology and to network with technical experts at Societies, through workshops, section activities and local chapters, sessions and lectures by technical professionals on upcoming trending technologies to instill students with the required skill and knowledge to excel in the tech world. 
                 GHRCE has the maximum IEEE student members in region-10. <br>
                 <br>
-              </p>
               </p>
             </div>
           </div>
@@ -128,17 +133,14 @@
       <div class="col s12 m4" style="padding: 20px;">
         <div class="card blue-grey lighten-4 aos-init aos-animate" data-aos="zoom-in" style="height: 600px; border-radius: 20px; border: #606060">
           <div class="card-content black-text">
-            <div class="card-image center"> <img src="images/ghrce.png" alt="GHRCE" width="80">
+            <div class="card-image center"> <img src="images/ngpsub.png" alt="IEEE Nagpur SS" width="80">
               <div class="container card-content" style="padding: 0px">
-                <p class="dosis" style="text-align: justify;padding: 0;margin: 0"><br>G.H. Raisoni College of Engineering (GHRCE) Nagpur, established in
-                  1996, is an autonomous institution affiliated to Rashtrasant Tukadoji Maharaj Nagpur University. The institute
-                  became autonomous in 2010 for a period of six years till 2016 and UGC has renewed autonomous status till 2022.
-                  It is ranked 67th PAN India in Engineering Discipline as declared by National Institutional Ranking Framework
-                  (NIRF) 2017, MHRD, Government of India. It is ranked in the band 100-150 PAN India in Engineering Discipline as
-                  declared by National Institutional Ranking Framework (NIRF) 2018, MHRD, Government of India. Institute is also
-                  ranked 69th PAN India by India Today MDRA Survey 2018.</p>
-                <br>
-                <br>
+                <p class="dosis" style="text-align: justify;padding: 0;margin: 0"><br>
+                  IEEE Nagpur subsection is 2nd subsection established under IEEE Bombay section in September, 2017. <br>
+                  The subsection aims at forming better networking between professional members and student members within Nagpur district of Maharashtra state. <br>
+                  It is also instrumental in boosting Engineering students, professionals and their respective careers. Along with the former, it prepares them for the competent world out there and to accept the globally posed challenges confidently , via various events that we organize to update knowledge and enhance their skill sets.<br>
+                  <br>
+                </p>
               </div>
             </div>
           </div>
@@ -147,8 +149,8 @@
     </div>
   </div>
 </section>
-<a name="speakers"></a>
-<section id="speakers">
+<a name="speakers"></a> 
+<!--<section id="speakers">
   <div class="container center">
     <h3 style="font-weight:bold;letter-spacing: 5px;margin-top: 0px; color: #FFFFFF"> <br>
       SPEAKERS </h3>
@@ -210,8 +212,9 @@
       </div>
     </div>
   </div>
-</section>
-<section class="hide-on-small-only">
+</section>--> 
+<a name="timeline"></a>
+<section>
   <div class="container center">
     <h4 style="text-transform: uppercase;font-weight:bold;word-spacing: 7px;letter-spacing: 5px;color: #FFFFFF;"> Event Timeline </h4>
     <hr style="width: 20%; align-self: center; margin-top: 20px;">
@@ -219,75 +222,199 @@
   <div class="row">
     <div class="col s6 offset-s3">
       <ul class="tabs tabs-transparent">
-        <li class="tab col s6" style="background: #494949;color:#FFFFFF " ><a class="active" target="_self" href="#day1">Test 1</a></li>
-        <li class="tab col s6"><a href="#test2">Test 2</a></li>
+        <li class="tab col s6 tablinks" style="background: #494949;color:#FFFFFF " onclick="openTime(event, 'day1con')"><a >8 March &#40;Day 1&#41;</a></li>
+        <li class="tab col s6 tablinks" style="background: #494949;color:#FFFFFF " onclick="openTime(event, 'day2con')"><a >9 March &#40;Day 2&#41;</a></li>
       </ul>
     </div>
-    <div id="day1">
-      <div class="timeline">
-        <ul>
-          <li>
-            <div class="content">
-              <h3>Lorem ipsum </h3>
-              <p>dolor sit amet, consectetur adipiscing elit. Nam sed lectus ut nisl varius scelerisque. Nunc consectetur tempus nisi id consectetur. Nunc eget lorem auctor, consectetur nisi posuere, rutrum orci. Phasellus dolor eros, faucibus id lacinia eu, tristique a turpis. Suspendisse posuere est sed feugiat condimentum. Suspendisse potenti. Ut luctus volutpat dolor eget mattis. Phasellus eget maximus turpis. Aliquam erat volutpat. Cras convallis convallis augue ac tristique.</p>
-            </div>
-            <div class="time">
-              <h4>8 March 2019</h4>
-            </div>
-          </li>
-          <li>
-            <div class="content">
-              <h3>Lorem ipsum </h3>
-              <p>dolor sit amet, consectetur adipiscing elit. Nam sed lectus ut nisl varius scelerisque. Nunc consectetur tempus nisi id consectetur. Nunc eget lorem auctor, consectetur nisi posuere, rutrum orci. Phasellus dolor eros, faucibus id lacinia eu, tristique a turpis. Suspendisse posuere est sed feugiat condimentum. Suspendisse potenti. Ut luctus volutpat dolor eget mattis. Phasellus eget maximus turpis. Aliquam erat volutpat. Cras convallis convallis augue ac tristique.</p>
-            </div>
-            <div class="time">
-              <h4>8 March 2019</h4>
-            </div>
-          </li>
-          <li>
-            <div class="content">
-              <h3>Lorem ipsum </h3>
-              <p>dolor sit amet, consectetur adipiscing elit. Nam sed lectus ut nisl varius scelerisque. Nunc consectetur tempus nisi id consectetur. Nunc eget lorem auctor, consectetur nisi posuere, rutrum orci. Phasellus dolor eros, faucibus id lacinia eu, tristique a turpis. Suspendisse posuere est sed feugiat condimentum. Suspendisse potenti. Ut luctus volutpat dolor eget mattis. Phasellus eget maximus turpis. Aliquam erat volutpat. Cras convallis convallis augue ac tristique.</p>
-            </div>
-            <div class="time">
-              <h4>8 March 2019</h4>
-            </div>
-          </li>
-          <li>
-            <div class="content">
-              <h3>Lorem ipsum </h3>
-              <p>dolor sit amet, consectetur adipiscing elit. Nam sed lectus ut nisl varius scelerisque. Nunc consectetur tempus nisi id consectetur. Nunc eget lorem auctor, consectetur nisi posuere, rutrum orci. Phasellus dolor eros, faucibus id lacinia eu, tristique a turpis. Suspendisse posuere est sed feugiat condimentum. Suspendisse potenti. Ut luctus volutpat dolor eget mattis. Phasellus eget maximus turpis. Aliquam erat volutpat. Cras convallis convallis augue ac tristique.</p>
-            </div>
-            <div class="time">
-              <h4>8 March 2019</h4>
-            </div>
-          </li>
-          <li>
-            <div class="content">
-              <h3>Lorem ipsum </h3>
-              <p>dolor sit amet, consectetur adipiscing elit. Nam sed lectus ut nisl varius scelerisque. Nunc consectetur tempus nisi id consectetur. Nunc eget lorem auctor, consectetur nisi posuere, rutrum orci. Phasellus dolor eros, faucibus id lacinia eu, tristique a turpis. Suspendisse posuere est sed feugiat condimentum. Suspendisse potenti. Ut luctus volutpat dolor eget mattis. Phasellus eget maximus turpis. Aliquam erat volutpat. Cras convallis convallis augue ac tristique.</p>
-            </div>
-            <div class="time">
-              <h4>8 March 2019</h4>
-            </div>
-          </li>
-          <li>
-            <div class="content">
-              <h3>Lorem ipsum </h3>
-              <p>dolor sit amet, consectetur adipiscing elit. Nam sed lectus ut nisl varius scelerisque. Nunc consectetur tempus nisi id consectetur. Nunc eget lorem auctor, consectetur nisi posuere, rutrum orci. Phasellus dolor eros, faucibus id lacinia eu, tristique a turpis. Suspendisse posuere est sed feugiat condimentum. Suspendisse potenti. Ut luctus volutpat dolor eget mattis. Phasellus eget maximus turpis. Aliquam erat volutpat. Cras convallis convallis augue ac tristique.</p>
-            </div>
-            <div class="time">
-              <h4>8 March 2019</h4>
-            </div>
-          </li>
-          <div style="clear: both"></div>
-        </ul>
+  </div>
+  <div class="row"> 
+    <!-- Tab content -->
+    <div id="day1con" class="tabcontent" >
+      <div id="day1" class="col s12" style="justify-content: center; margin: 0 auto;">
+        <div class="timeline">
+          <ul>
+            <li>
+              <div class="content">
+                <h3>Registration </h3>
+                <p>Registration of Participants will start at 9:00 am sharp.<br>
+                </p>
+              </div>
+              <div class="time">
+                <h4>9&#58;00 am</h4>
+              </div>
+            </li>
+            <li>
+              <div class="content">
+                <h3>Inaugural </h3>
+                <p>Inauguration ceremony and Greetings</p>
+              </div>
+              <div class="time">
+                <h4>10&#58;00 am</h4>
+              </div>
+            </li>
+            <li>
+              <div class="content">
+                <h3>Photoshoot </h3>
+                <p>discription....</p>
+              </div>
+              <div class="time">
+                <h4>10&#58;30 am</h4>
+              </div>
+            </li>
+            <li>
+              <div class="content">
+                <h3>Panel Discussion</h3>
+                <p>disciption....</p>
+              </div>
+              <div class="time">
+                <h4>10&#58;45 am</h4>
+              </div>
+            </li>
+            <li>
+              <div class="content">
+                <h3>Workshop </h3>
+                <p>Hands on workshop on IoT</p>
+              </div>
+              <div class="time">
+                <h4>11&#58;45 am</h4>
+              </div>
+            </li>
+            <li>
+              <div class="content">
+                <h3>Lunch</h3>
+                <p>discription....</p>
+              </div>
+              <div class="time">
+                <h4>1&#58;45 pm</h4>
+              </div>
+            </li>
+            <li>
+              <div class="content">
+                <h3>Panel Discussion</h3>
+                <p>disciption....</p>
+              </div>
+              <div class="time">
+                <h4>2&#58;45 pm</h4>
+              </div>
+            </li>
+            <li>
+              <div class="content">
+                <h3>Session</h3>
+                <p>How to make your village smart &#63;</p>
+              </div>
+              <div class="time">
+                <h4>3&#58;45 pm</h4>
+              </div>
+            </li>
+            <li>
+              <div class="content">
+                <h3>Startup showcase</h3>
+                <p>discription....</p>
+              </div>
+              <div class="time">
+                <h4>4&#58;45 pm</h4>
+              </div>
+            </li>
+            <div style="clear: both"></div>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="day2con" class="tabcontent">
+      <div id="day2" class="col s12" style="justify-content: center; margin: 0 auto;">
+        <div class="timeline">
+          <ul>
+            <li>
+              <div class="content">
+                <h3>Registration </h3>
+                <p>Registration of Participants will start at 9:00 am sharp.<br>
+                </p>
+              </div>
+              <div class="time">
+                <h4>9&#58;00 am</h4>
+              </div>
+            </li>
+            <li>
+              <div class="content">
+                <h3>keynote </h3>
+                <p>discription....</p>
+              </div>
+              <div class="time">
+                <h4>10&#58;00 am</h4>
+              </div>
+            </li>
+            <li>
+              <div class="content">
+                <h3>Panel Discussion</h3>
+                <p>disciption....</p>
+              </div>
+              <div class="time">
+                <h4>10&#58;10 am</h4>
+              </div>
+            </li>
+            <li>
+              <div class="content">
+                <h3>filler</h3>
+                <p>disciption....</p>
+              </div>
+              <div class="time">
+                <h4>11&#58;10 am</h4>
+              </div>
+            </li>
+            <li>
+              <div class="content">
+                <h3>Hackathon </h3>
+                <p>disciption....</p>
+              </div>
+              <div class="time">
+                <h4>11&#58;30 am</h4>
+              </div>
+            </li>
+            <li>
+              <div class="content">
+                <h3>Lunch</h3>
+                <p>discription....</p>
+              </div>
+              <div class="time">
+                <h4>1&#58;30 pm</h4>
+              </div>
+            </li>
+            <li>
+              <div class="content">
+                <h3>Panel Discussion</h3>
+                <p>disciption....</p>
+              </div>
+              <div class="time">
+                <h4>2&#58;30 pm</h4>
+              </div>
+            </li>
+            <li>
+              <div class="content">
+                <h3>Idea Pitching</h3>
+                <p>How to make your village smart &#63;</p>
+              </div>
+              <div class="time">
+                <h4>3&#58;30 pm</h4>
+              </div>
+            </li>
+            <li>
+              <div class="content">
+                <h3>Conclusion</h3>
+                <p>End of Event</p>
+              </div>
+              <div class="time">
+                <h4>4&#58;30 pm</h4>
+              </div>
+            </li>
+            <div style="clear: both"></div>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
 </section>
-<a name="contact"></a>
-<section id="contact">
+<a name="contact"></a> 
+<!--<section id="contact">
   <div class="container">
     <div class="row">
       <div class="center">
@@ -310,7 +437,7 @@
       </li>
     </ul>
   </div>
-</section>
+</section>-->
 <footer style="background: #343434;">
   <div class="row">
     <div class="container" style="padding-top: 40px">
@@ -344,8 +471,10 @@
 	</script> 
 <script>
 	document.addEventListener('DOMContentLoaded', function() {
-		var elems = document.querySelectorAll('.sidenav');
-    var instances = M.Sidenav.init(elems, {});
+	var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems,{});
+	var elems = document.querySelectorAll('.tabs');
+	var instance = M.Tabs.init(elems,{});
     var elems = document.querySelectorAll('.collapsible');
     var instances = M.Collapsible.init(elems, {});
 	var el = document.querySelectorAll('.carousel');
@@ -353,14 +482,31 @@
   });
 	</script> 
 <script type="text/javascript">
-		M.AutoInit();
-	</script> 
-<script src="js/particles.js"></script> 
-<script src="js/app.js"></script>
-<!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  function openTime(evt, day) {
+  // Declare all variables
+  var i, tabcontent, tablinks;
 
+  // Get all elements with class="tabcontent" and hide them
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Get all elements with class="tablinks" and remove the class "active"
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+
+  // Show the current tab, and add an "active" class to the button that opened the tab
+  document.getElementById(day).style.display = "flex";
+  evt.currentTarget.className += " active";
+}
+</script> 
+<script src="js/particles.js"></script> 
+<script src="js/app.js"></script> 
+<!-- Compiled and minified JavaScript --> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </body>
 </html>
