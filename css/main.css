@@ -19,6 +19,26 @@ ul li a:hover {
     background-color: black !important;
     opacity: 0.5;
 }
+#logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100px;
+    height: 120px;
+    margin-top: -60px; /* Half the height */
+    margin-left: -50px; /* Half the width */
+}
+#regbtn {
+    width: 200px;
+    height: 50px;
+    margin-top: -25px; /* Half the height */
+    margin-left: -100px; /* Half the width */
+}
+#card1img, #card2img, #card3img {
+    display: inline-block;
+    width: 50%;
+	height: 50px;
+}
 .container img {
     max-width: 100px !important;
     max-height: 100px !important;
@@ -194,7 +214,6 @@ ul li a:hover {
     position: relative;
     margin: 20px;
     margin-top: 100px;
-    width: 80%;
 }
 .timeline:before {
     content: '';
@@ -265,7 +284,7 @@ ul li a:hover {
     position: absolute;
     top: 12px;
     margin: 0;
-    padding: 8px 16px;
+    padding: 8px 12px;
     background: #494949;
     color: #FFFFFF;
     border-radius: 18px;
@@ -275,9 +294,41 @@ ul li a:hover {
     background: #000000;
 }
 }
+#longcard {
+    padding: 20px;
+}
 
 @media only screen and (max-width: 640px) {
 .brand-logo {
     align-content: center;
 }
+}
+
+@media only screen and (min-width: 1024px ) and (max-width:1068px) {
+#longcard {
+    padding: 20px 0;
+}
+#card1, #card2, #card3 {
+    height: 650px !important;
+}
+}
+
+@media only screen and (min-width: 425px) {
+#card1, #card2, #card3 {
+    height: 600px;
+    border-radius: 20px;
+    border: #606060;
+    overflow: hidden;
+}
+}
+
+@media only screen and (max-width: 425px) {
+#card1, #card2, #card3 {
+    height: auto;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    border: #606060;
+    overflow: hidden
+}
+	
 }
