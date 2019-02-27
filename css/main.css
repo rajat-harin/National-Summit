@@ -82,6 +82,20 @@ ul li a:hover {
     left: auto;
     right: auto;
 }
+	.card{
+		min-height: 420px; 
+	}
+}
+@media only screen and (min-width: 1170px) {
+.row .col.m5th {
+    width: 25% !important;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+	.card{
+		min-height: 460px; 
+	}
 }
 @media only screen and (min-width: 1330px) {
 .row .col.m5th {
