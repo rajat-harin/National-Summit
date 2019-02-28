@@ -37,7 +37,7 @@ ul li a:hover {
 #card1img, #card2img, #card3img {
     display: inline-block;
     width: 50%;
-	height: 50px;
+    height: 50px;
 }
 .container img {
     max-width: 100px !important;
@@ -61,6 +61,7 @@ ul li a:hover {
 .collapsible-body {
     background: #BFBFBF;
 }
+
 @media only screen and (min-width: 425px) {
 .row .col.m5th {
     width: 50% !important;
@@ -70,7 +71,6 @@ ul li a:hover {
 }
 }
 
-
 @media only screen and (min-width: 601px) {
 .row .col.m5th {
     width: 33.33% !important;
@@ -78,10 +78,9 @@ ul li a:hover {
     left: auto;
     right: auto;
 }
-	.card
-	{
-		min-height: 350px;
-	}
+.card {
+    min-height: 350px;
+}
 }
 
 @media only screen and (min-width: 1024px) {
@@ -91,9 +90,7 @@ ul li a:hover {
     left: auto;
     right: auto;
 }
-	
 }
-
 
 @media only screen and (min-width: 1330px) {
 .row .col.m5th {
@@ -102,8 +99,8 @@ ul li a:hover {
     left: auto;
     right: auto;
 }
-	
 }
+
 @media only screen and (min-width: 2560px) {
 .row .col.m5th {
     width: 16.66% !important;
@@ -111,9 +108,7 @@ ul li a:hover {
     left: auto;
     right: auto;
 }
-	
 }
-
 /* For Timeline */
 .tab {
     overflow: hidden;
@@ -374,5 +369,4 @@ ul li a:hover {
     border: #606060;
     overflow: hidden
 }
-	
 }
