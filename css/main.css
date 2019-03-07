@@ -29,10 +29,10 @@ ul li a:hover {
     margin-left: -50px; /* Half the width */
 }
 #regbtn {
-    width: 200px;
+    width: 240px;
     height: 50px;
     margin-top: -25px; /* Half the height */
-    margin-left: -100px; /* Half the width */
+    margin-left: -120px; /* Half the width */
 }
 #card1img, #card2img, #card3img {
     display: inline-block;
